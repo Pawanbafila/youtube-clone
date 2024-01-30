@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 226, 226);
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.header-wraper {
+  width: 1370px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.logo {
+
+  float: left;
+  width: 250px;
+  height: 56px;
+}
+
+.logo img {
+  float: left;
+  height: 56px;
+}
+
+.logo i {
+  font-size: 25px;
+  float: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+
+
+
+.search {
+  float: left;
+  width: 732px;
+  height: 56px;
+  margin-left: 100px;
+}
+
+.search input {
+  float: left;
+  width: 70%;
+  height: 70%;
+  margin: 10px 0px 0 50px;
+  padding: 10px;
+  border-radius: 10px 0 0 10px;
+  border: solid 1.5px rgba(0, 0, 0, 0.285);
+
+}
+
+.icon1 {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.173);
+  padding: 9px 25px;
+  float: left;
+  border-radius: 0 15px 15px 0;
+  margin: 10px 5px 0 0px;
+  border: solid 1.5px rgba(0, 0, 0, 0.204);
+}
+
+.icon2 {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.11);
+  padding: 10px 15px;
+  float: left;
+  border-radius: 50%;
+  margin: 9px 5px;
+  border: solid 1.5px rgba(0, 0, 0, 0.204);
+}
+
+.logos {
+
+  width: 250px;
+  height: 56px;
+  float: right;
+  background-color: rgb(254, 254, 254);
+}
+
+.logos i {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin: 5px 10px;
+
+  padding: 10px;
+}
+
+.logos .user {
+  float: right;
+  padding: 5px 10px;
+  font-size: 35px;
+}
+
+
+
+
+
+
+.leftbar {
+  float: left;
+  width: 160px;
+  height: 100vh;
+  background-color: white;
+  
+}
+
+.leftbar i {
+  margin: 5px 5px;
+
+  float: left;
+  width: 150px;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+.leftbar i p {
+  float: left;
+  font-weight: solid;
+  font-size: 11.5px;
+  margin: 10px 5px;
+  letter-spacing: 2px;
+
+}
+
+.leftbar .play p {
+  float: left;
+  font-weight: solid;
+  font-size: 11.5px;
+  margin: 10px 25px 0px 0;
+  letter-spacing: 2px;
+
+}
+
+.leftbar .yt p {
+  float: left;
+  font-weight: solid;
+  font-size: 11.5px;
+  margin: 10px;
+  letter-spacing: 2px;
+
+}
+
+.keylist {
+  width: 1500px;
+  height: 75px;
+  background-color: rgb(255, 255, 255);
+}
+
+.keylist .list {
+  width: 1410px;
+  height: 56px;
+}
+
+.keylist .list a {
+  float: left;
+  padding: 11px 10px;
+  margin: 15px 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 10px;
+  background-color: rgb(209, 209, 209);
+}
+
+.keylist .list i {
+  font-size: 20px;
+  padding: 11px 10px;
+  margin: 15px 10px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+main {
+  float: right;
+  width: 90vw;
+  height: 100vh;
+  margin: 10px 0 0 0;
+}
+
+.first-group-video {
+  margin: 0 auto;
+  width: 1348px;
+  height: 364.99px;
+}
+
+
+
+.thum1 {
+  /* background-color: rgb(98, 69, 74); */
+  width: 410px;
+  height: 325px;
+  margin: 20px 0 0 20px;
+ float: left;
+
+}
+
+.vid {
+  border-radius: 10px;
+  width: 399.99px;
+  height: 224.99px;
+  background-image: url(images/vX_4F1PdXQ0-HD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.vid-titel {
+ 
+  width: 399.99px;
+  height: 78px;
+  margin-top: 5px;
+  
+}
+
+.vid-titel .channellogo {
+  font-size: 25px;
+  float: left;
+}
+.vid-titel .titel{
+  float:left;
+  margin: 0 0 0 5px;
+  font-weight: 550;
+}
+.vid-titel .chaname{
+  float: left;
+ font-size: 14px;
+  margin: 0 0 0 30px;
+}
+.vid-titel .live{
+  float: left;
+  position: relative;
+  top: 20px;
+  font-size: 12px;
+  right: 85px;
+ 
+}
+.vid-titel .liveicon {
+  width: 399px;
+  height: 20px;
+  float: left;
+  margin: 15px 0 0 40px;
+}
+.vid-titel .liveicon img{
+  width: 50px;
+}
+.vid-titel .threedot{
+  float: right;
+  margin:  3px 3px 0 0;
+}
+
+
+/*
+ * here start our video non live video start
+ */
+.totalviews{
+  float: left;
+  width: 300px;
+  margin: 0 0 0 30px;
+}
+
+
+.vid-titel .totalviews{
+ float: left;
+
+  font-size: 12px;
+ 
+}
+.vid-titel .totalviews .time{
+  float: left;
+ 
+}
+
+.vid1 {
+  border-radius: 10px;
+  width: 399.99px;
+  height: 224.99px;
+  background-image: url(images/22bLNq6iCjU-HD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+/*
+ * here start our third video work
+ */
+
+ .vid2 {
+  border-radius: 10px;
+  width: 399.99px;
+  height: 224.99px;
+  background-image: url(images/0dyrBYO4rCo-HD.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.vid-titel .chaname1{
+  
+  float: left;
+  font-size: 14px;
+   margin: 0 0 0 5px;
+
+}
